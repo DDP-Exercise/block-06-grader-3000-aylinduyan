@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eeeeee;
+    margin: 0;
+    padding: 20px;
+}
+main {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border: 1px solid #cccccc
+}
+h1 {
+    text-align: center;
+}
+section {
+    margin-bottom: 25px;
+}
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    padding: 8px;
+    background: #f7f7f7;
+    border: 1px solid #dddddd;
+}
+input {
+    width: 90px;
+}
+#result-box {
+    border-top: 2px solid #333333;
+    padding-top: 15px;
+}
+.positive {
+    color: green;
+    font-weight: bold;
+}
+.negative {
+    color: red;
+    font-weight: bold;
+}
+.dropped {
+    background: #fff0b3;
+    text-decoration: none;
+}
+.dropped label {
+    text-decoration: line-through;
+}
+.dropped::after {
+    content: "Streichergebnis";
+    color: #777777;
+    margin-left: 10px;
+}
